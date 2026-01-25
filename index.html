@@ -33,7 +33,7 @@
         <div>
           <div class="flex items-center justify-between py-5 px-2">
             <!-- nav logo -->
-            <div class="flex gap-3 items-center text-3xl font-bold">
+            <div class="flex gap-3 items-center text-3xl font-bold text-black">
               <img
                 class="w-12 h-12 object-contain"
                 src="./Images/nav-logo.png"
@@ -67,7 +67,7 @@
 
     <main>
       <!-- hero section -->
-      <section>
+      <section class="mb-10 sm:mb-18 md:mb-24 lg:mb-30">
         <div class="hero-image">
           <div
             class="flex flex-col gap-7 items-center py-18 sm:py-32 md:py-38 lg:py-42"
@@ -116,6 +116,58 @@
                 <i class="ri-search-line"></i>Fine Now
               </button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tours section -->
+
+      <section class="mb-30">
+        <div class="grid md:grid-cols-2 gap-5">
+          <!-- tours content -->
+          <div class="flex flex-col gap-8 justify-center">
+            <h2
+              class="text-(--headder-color) text-2xl sm:text-3xl md:text-4xl font-extrabold"
+            >
+              Our Popular Tours
+            </h2>
+            <p>
+              Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+              odio sit massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+
+            <!-- tours list -->
+            <div class="pl-5 flex flex-col gap-5">
+              <p class="list-item">
+                Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+                nullam odio neque diam. Sociis erat at .
+              </p>
+              <p class="list-item">
+                Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                platea porta lacus. Lectus suspendisse nullam.
+              </p>
+              <p class="list-item">
+                Accumsan eget et turpis praesent lorem egestas enim elit
+                bibendum. Risus at in.
+              </p>
+            </div>
+            <p>
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+              Habitant adipiscing risus natoque aliquet. Id bibendum nunc
+              senectus semper tincidunt.
+            </p>
+            <div>
+              <button
+                class="bg-(--btn-color) text-white text-xl font-bold py-3 px-7 rounded-md"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+          <!-- tours image -->
+          <div class="flex items-center justify-center">
+            <img class="w-auto" src="./Images/our-tours.png" alt="" />
           </div>
         </div>
       </section>

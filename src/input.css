@@ -15,6 +15,7 @@
   --hero-color: rgba(255, 255, 255, 0.3);
   --text-color: rgba(19, 19, 24, 0.7);
   --secondary-color: rgb(204, 204, 204);
+  --headder-color: rgba(19, 19, 24, 1);
 }
 
 .containers {
