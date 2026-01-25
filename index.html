@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- icon link -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <!-- Css files -->
     <link href="./src/input.css" rel="stylesheet" />
     <link href="./src/output.css" rel="stylesheet" />
@@ -17,5 +26,43 @@
     <!-- title -->
     <title>Hero Travel Blog Website</title>
   </head>
-  <body></body>
+  <body class="mulish-font containers">
+    <nav>
+      <!-- navbr dection -->
+      <section>
+        <div>
+          <div class="flex items-center justify-between py-5 px-2">
+            <!-- nav logo -->
+            <div class="flex gap-3 items-center text-3xl font-bold">
+              <img
+                class="w-12 h-12 object-contain"
+                src="./Images/nav-logo.png"
+                alt="nav logo"
+              />
+
+              <h1>Hero <span class="text-(--btn-color)">Travel</span></h1>
+            </div>
+
+            <!-- nav links -->
+            <div class="hidden md:block">
+              <ul class="flex gap-5 text-[16px] font-semibold">
+                <li class="text-(--btn-color)">
+                  <a href="#">Home</a>
+                </li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+
+            <!-- hamburger icon -->
+            <div class="md:hidden text-(--btn-color) text-3xl font-extrabold">
+              <i class="ri-menu-3-fill"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </nav>
+  </body>
 </html>
