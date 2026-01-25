@@ -26,7 +26,7 @@
     <!-- title -->
     <title>Hero Travel Blog Website</title>
   </head>
-  <body class="mulish-font containers">
+  <body class="mulish-font containers text-(--text-color)">
     <nav>
       <!-- navbr dection -->
       <section>
@@ -64,5 +64,61 @@
         </div>
       </section>
     </nav>
+
+    <main>
+      <!-- hero section -->
+      <section>
+        <div class="hero-image">
+          <div
+            class="flex flex-col gap-7 items-center py-18 sm:py-32 md:py-38 lg:py-42"
+          >
+            <!-- hero content text -->
+            <div class="text-center">
+              <h1
+                class="text-2xl sm:text-5xl md:text-6xl font-extrabold text-white"
+              >
+                Explore Your Travel
+              </h1>
+              <p class="text-[16px] leading-7 max-w-169 text-white">
+                Dolor sit amet consectetur. Nullam suspendisse vitae ultricies
+                dolor adipiscing. In et odio enim ac quis sapien urna eu
+                phasellus.
+              </p>
+            </div>
+
+            <!-- hero content button -->
+            <div
+              class="bg-(--hero-color) text-(--secondary-color) flex flex-wrap justify-center gap-10 text-2xl items-center rounded-xl mx-7 p-5"
+            >
+              <h2 class="bg-white w-full sm:w-auto py-3 px-7 rounded-md">
+                Where Go
+              </h2>
+              <select
+                class="text-(--secondary-color) bg-white w-full sm:w-auto py-3 px-7 rounded-md"
+                id="name"
+              >
+                <option value="name">When</option>
+                <option value="name">Bali</option>
+                <option value="name">Bali</option>
+              </select>
+              <select
+                class="text-(--secondary-color) bg-white w-full sm:w-auto py-3 px-7 rounded-md"
+              >
+                <option value="">Select type</option>
+                <option value="">Select type a</option>
+                <option value="">Select type b</option>
+                <option value="">Select type c</option>
+                <option value="">Select type d</option>
+              </select>
+              <button
+                class="bg-(--btn-color) w-full sm:w-auto py-3 px-7 rounded-md flex gap-3"
+              >
+                <i class="ri-search-line"></i>Fine Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

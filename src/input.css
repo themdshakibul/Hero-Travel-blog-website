@@ -12,9 +12,21 @@
 
 :root {
   --btn-color: rgba(255, 84, 0, 1);
+  --hero-color: rgba(255, 255, 255, 0.3);
+  --text-color: rgba(19, 19, 24, 0.7);
+  --secondary-color: rgb(204, 204, 204);
 }
 
 .containers {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 10px;
+}
+
+.hero-image {
+  background: url(../Images/hero-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
 }
