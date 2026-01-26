@@ -16,6 +16,9 @@
   --text-color: rgba(19, 19, 24, 0.7);
   --secondary-color: rgb(204, 204, 204);
   --headder-color: rgba(19, 19, 24, 1);
+  --card1-color: rgba(251, 181, 99, 0.2);
+  --card2-color: rgba(41, 206, 246, 0.2);
+  --card3-color: rgba(233, 68, 68, 0.2);
 }
 
 .containers {
