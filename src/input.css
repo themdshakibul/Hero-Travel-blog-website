@@ -19,6 +19,7 @@
   --card1-color: rgba(251, 181, 99, 0.2);
   --card2-color: rgba(41, 206, 246, 0.2);
   --card3-color: rgba(233, 68, 68, 0.2);
+  --bg-card-color: #ffffffc7;
 }
 
 .containers {
@@ -32,5 +33,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 20px;
+}
+
+.card-image {
+  background-image: url(../Images/Group\ 39.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 20px;
 }
