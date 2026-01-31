@@ -37,9 +37,13 @@
 }
 
 .card-image {
-  background-image: url(../Images/Group\ 39.png);
+  background-image:
+    linear-gradient(rgba(65, 65, 65, 0.236), rgba(31, 31, 31, 0.565)),
+    url(../Images/Group\ 39.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 20px;
+  padding: 60px;
+  margin-bottom: 25px;
 }
